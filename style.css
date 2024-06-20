@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2F4F4F;
+    font-family: Arial, sans-serif;
+}
+
+#game {
+    text-align: center;
+    Color: #FFFFFF;
+    font-family: TT Rounds Neue;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 7px;
+    margin-bottom: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #B0C4DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+#restart {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
